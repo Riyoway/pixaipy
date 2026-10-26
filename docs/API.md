@@ -89,8 +89,8 @@ Pagination 🔎: connection-style — `edges/node/pageInfo{hasNextPage…endCurs
 ```json
 { "query": "query getMyQuota { me { id quotaAmount } }", "variables": {} }
 ```
-→ `data.me.quotaAmount` (int credits). An `email` field is also present on `me`
-in most bundle queries (🔎) but the verified minimal shape is `id`+`quotaAmount`.
+→ `data.me.quotaAmount` (int credits). The `email` field is returned too and ✅
+verified live; the verified minimal shape is `id` + `quotaAmount` + `email`.
 
 ### 3.2 Submit a generation task ✅
 
