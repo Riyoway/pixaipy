@@ -1,4 +1,4 @@
-"""Exceptions raised by pixai-unofficial-api."""
+"""Exceptions raised by pixaipy."""
 
 
 class PixAIError(Exception):

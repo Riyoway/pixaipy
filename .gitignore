@@ -8,5 +8,5 @@ dist/
 venv/
 
 # Local tokens / outputs
-.pixai_api/
+.pixaipy/
 output/

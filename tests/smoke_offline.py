@@ -14,7 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from pixai_api import PixAI, PixAIError  # noqa: E402
+from pixaipy import PixAI, PixAIError  # noqa: E402
 
 
 class FakeResponse:

@@ -1,4 +1,4 @@
-"""Command line interface for pixai-unofficial-api.
+"""Command line interface for pixaipy.
 
     pixai token set <TOKEN>
     pixai quota
@@ -16,7 +16,7 @@ from pathlib import Path
 from .client import PixAI
 from .errors import PixAIError
 
-DEFAULT_TOKEN_FILE = Path.home() / ".pixai_api" / "token.json"
+DEFAULT_TOKEN_FILE = Path.home() / ".pixaipy" / "token.json"
 
 
 def _load_token(args) -> str:

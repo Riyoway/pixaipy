@@ -10,9 +10,9 @@ Run:  python examples/generate_and_download.py "your prompt here" MODEL_ID
 import sys
 from pathlib import Path
 
-from pixai_api import PixAI
+from pixaipy import PixAI
 
-TOKEN_FILE = Path.home() / ".pixai_api" / "token.json"
+TOKEN_FILE = Path.home() / ".pixaipy" / "token.json"
 OUTPUT_DIR = "output"
 
 

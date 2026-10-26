@@ -1,6 +1,6 @@
 """Check the credit balance of a PixAI account via the unofficial API.
 
-Run:  python examples/check_quota.py  (token from ~/.pixai_api/token.json)
+Run:  python examples/check_quota.py  (token from ~/.pixaipy/token.json)
 or:   PIXAI_TOKEN=... python examples/check_quota.py <token>
 """
 
@@ -8,9 +8,9 @@ import os
 import sys
 from pathlib import Path
 
-from pixai_api import PixAI, PixAIError
+from pixaipy import PixAI, PixAIError
 
-TOKEN_FILE = Path.home() / ".pixai_api" / "token.json"
+TOKEN_FILE = Path.home() / ".pixaipy" / "token.json"
 
 
 def main() -> int:

@@ -1,4 +1,4 @@
-"""pixai-unofficial-api — client for the PixAI.art GraphQL/REST API.
+"""pixaipy — client for the PixAI.art GraphQL/REST API.
 
 Unofficial, not affiliated with PixAI. Token auth, quota checks,
 generation task submission/polling and a generic ``graphql()`` escape

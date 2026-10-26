@@ -1,4 +1,4 @@
-# pixai-unofficial-api
+# pixaipy
 
 Unofficial, community-made client for the PixAI.art GraphQL/REST API.
 Not affiliated with or endorsed by PixAI.
@@ -38,7 +38,7 @@ Python 3.9+ / only dependency is `requests`.
 3. Use token:
 
 ```bash
-pixai token set eyJhbGciOi...        # stored in ~/.pixai_api/token.json
+pixai token set eyJhbGciOi...        # stored in ~/.pixaipy/token.json
 # or set env var:
 export PIXAI_TOKEN=eyJhbGciOi...
 ```
@@ -51,7 +51,7 @@ session (or by a service you control). The simpler path is token auth
 above.
 
 ```python
-from pixai_api import PixAI
+from pixaipy import PixAI
 client = PixAI()
 client.login("me@example.com", "password", recaptcha_token="<your-token>")
 client.save_token()
@@ -63,7 +63,7 @@ client.save_token()
 import logging, sys
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
-from pixai_api import PixAI
+from pixaipy import PixAI
 
 client = PixAI(token="YOUR_TOKEN")          # or PixAI.load_token based flow
 
