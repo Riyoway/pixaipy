@@ -1,5 +1,9 @@
 # pixaipy
 
+[![PyPI - Version](https://img.shields.io/pypi/v/pixaipy)](https://pypi.org/project/pixaipy/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pixaipy)](https://pypi.org/project/pixaipy/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Unofficial, community-made client for the PixAI.art GraphQL/REST API.
 Not affiliated with or endorsed by PixAI.
 
@@ -21,6 +25,12 @@ requests automatically degrade to inline queries instead of hard-failing.
   parsed from the official web bundle, with variable types
 
 ## Install
+
+```bash
+pip install pixaipy
+```
+
+From source:
 
 ```bash
 pip install -e .
